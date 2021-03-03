@@ -77,7 +77,6 @@ public class DynArray {
 	// be incerted at the location index in the array, inserts
 	// incerts value at the location index, and adjust nextIndex
 	//appropriately.
-	//Note a grow() may be neccessary before or after.
 	// else
 	// do nothing.
 
@@ -108,7 +107,6 @@ public class DynArray {
 	// the value at the location index in the array, adjust
 	// nextIndex appropriately, and return the value that was
 	// at the location index .
-	// Note: a shrink() may be neccessary before or after.
 	// else
 	// return Double.NaN.
 	public double remove() {
